@@ -1,0 +1,68 @@
+table,
+tr,
+td{
+    border:2px solid gray;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.delivered{
+    color: #1F9254;
+
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+display: flex;
+padding: 8px 12px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+
+border-radius: 22px;
+background: #EBF9F1;
+}
+
+.process{
+    color: #CD6200;
+
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+    display: flex;
+    padding: 8px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+    border-radius: 22px;
+    background: #FEF2E5;
+}
+
+.canceled{
+    color: #A30D11;
+
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+    display: flex;
+    padding: 8px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+    border-radius: 22px;
+    background: #FBE7E8;
+}
